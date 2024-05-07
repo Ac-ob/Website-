@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "final_project",
+    "title": "Final Project",
     "section": "",
-    "text": "Hi"
+    "text": "I have been a Data Science student for the last three months. Through this class I learned not only to do amazing graphs but also how to ethically analyze the data.\nIn this website you are going to see a collection of the projects I have done on over the last 3 months. I had a lot of fun learning how to code Rstudio and make different graph and tables to communicate my message. I hope that you enjoy looking at my work as much as I enjoyed making it.\nWebsite is divided into:\n\nMy Page: Introduction to the website.\nAbout: Information about the author.\nMap: Mapping data piece.\nSQL: SQL data piece.\nWrangling: Wrangling data piece."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "My name is Wheebuns chewiebag. My name was generated from this site. My photo is from here.\n\n\nIf you would like to contact me please do so at 248-434-5508"
+    "text": "My name is Shoowee Pieshine. My name was generated from this site. My photo is from here. In this website you are going to see a collection of the projects I have been working on for the last 3 months. I had a lot of fun learning how to code Rstudio and make different graph and tables to communicate my message. I hope that you enjoy looking at my work as much as I enjoyed making it.\n\n\nIf you would like to contact me please do so at 222-444-5555"
   },
   {
     "objectID": "Readme.html",
@@ -72,8 +72,29 @@
   {
     "objectID": "Examples/MapExample.html#interactive-map-of-macleish-station-illustrating-wetland-area",
     "href": "Examples/MapExample.html#interactive-map-of-macleish-station-illustrating-wetland-area",
-    "title": "In-class Exercises: Mapping",
+    "title": "Mapping",
     "section": "Interactive map of Macleish station illustrating wetland area",
     "text": "Interactive map of Macleish station illustrating wetland area"
+  },
+  {
+    "objectID": "Examples/sql.html",
+    "href": "Examples/sql.html",
+    "title": "SQL",
+    "section": "",
+    "text": "Table of Andie MacDowell’s full filmography, in chronological order\n\n\n                                                    title production_year\n1       Greystoke: The Legend of Tarzan, Lord of the Apes            1984\n2                                         St. Elmo's Fire            1985\n3                                Sex, Lies, and Videotape            1989\n4                                              Green Card            1990\n5                                             Hudson Hawk            1991\n6                                    The Object of Beauty            1991\n7                                              Ruby Cairo            1992\n8                                              The Player            1992\n9  Luck, Trust & Ketchup: Robert Altman in Carver Country            1993\n10                                          Groundhog Day            1993\n                 name\n1    Miss Jane Porter\n2       Dale Biberman\n3  Ann Bishop Mullany\n4             BrontÃ«\n5        Anna Baragli\n6                Tina\n7         Bessie Faro\n8     Andie MacDowell\n9             Herself\n10               Rita\n\n\nFigure: Table showing Andi MacDowell’s full filmography, in chronological order. It shows the title of the movie, production year, and the name of the character she played. I learned how to wrangle data (in SQL, by joining different tables) through the process of this piece, and it was very fun!"
+  },
+  {
+    "objectID": "Examples/MapExample.html",
+    "href": "Examples/MapExample.html",
+    "title": "Mapping",
+    "section": "",
+    "text": "Interactive map of Magic Kingdom Theme Park\n\n\n\n\n\n\nFigure: I created an interactive map of Magic Kingdom Theme park in Orlando, Florida. I did this by using the leaflet package in Rstudio. You can adjust the view and navigate around the area."
+  },
+  {
+    "objectID": "Examples/wrangling.html",
+    "href": "Examples/wrangling.html",
+    "title": "Wrangling",
+    "section": "",
+    "text": "Table of the stop and frisk program in NYC, wrangled to show the number and percentage of stops per race\n\n\n# A tibble: 6 × 3\n  race_cat                        stops percent_stops\n  &lt;chr&gt;                           &lt;int&gt;         &lt;dbl&gt;\n1 BLACK                          350743        52.9  \n2 WHITE-HISPANIC                 175302        26.4  \n3 WHITE                           61805         9.32 \n4 BLACK-HISPANIC                  48438         7.30 \n5 ASIAN/PACIFIC ISLANDER          23932         3.61 \n6 AMERICAN INDIAN/ALASKAN NATIVE   2897         0.437\n\n\nFigure: Table showing the number and percentages of stops by race from the NYC stop and frisk program. I did this table by mutating, summarizing, and organizing my data in a way that I could use the result to show the total number of stops for each race and the percentages associated with it."
   }
 ]
